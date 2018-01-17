@@ -23,6 +23,9 @@ const LinksWrapper = styled('ul')`
 `
 
 const Link = styled('li')`
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
     padding: 0 15px;
     margin: 0;
 `
