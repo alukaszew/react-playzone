@@ -34,4 +34,4 @@ const Navigation = () =>
             <Link>Example Link</Link>
         </LinksWrapper>
     </NavigationWrapper>
-export default Header
+export default Navigation
