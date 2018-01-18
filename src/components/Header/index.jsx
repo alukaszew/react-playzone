@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "react-emotion";
+import styled from 'react-emotion'
 import Navigation from './Nav'
 
 const HeaderWrapper = styled('header')`
