@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
+import styled /* ,{ css } */ from 'react-emotion'
 import Header from '../Header'
-import styled /*, { css }*/ from 'react-emotion'
 
 const ApplicationWrapper = styled('div')`
   background-color: #fafafa;
@@ -19,14 +19,11 @@ const MainContainer = styled('div')`
   width: 1200px;
 `
 
-export default class Wrapper extends Component {
-  render() {
-    return (
-      <ApplicationWrapper>
-        <MainContainer>
-          <Header></Header>
-        </MainContainer>
-      </ApplicationWrapper>
-    )
-  }
-}
+const Wrapper = () =>
+  <ApplicationWrapper>
+    <MainContainer>
+      <Header></Header>
+    </MainContainer>
+  </ApplicationWrapper>
+
+export default Wrapper
