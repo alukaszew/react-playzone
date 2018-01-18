@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from "react-emotion";
+import styled from 'react-emotion'
 
 const NavigationWrapper = styled('nav')`
   box-sizing: border-box;
