@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Header from '../Header'
-import styled, { css } from 'react-emotion'
-
+import styled /*, { css }*/ from 'react-emotion'
 
 const ApplicationWrapper = styled('div')`
   background-color: #fafafa;
