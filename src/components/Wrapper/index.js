@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
+import styled /* ,{ css } */ from 'react-emotion'
 import Header from '../Header'
-import styled, { css } from 'react-emotion'
-
 
 const ApplicationWrapper = styled('div')`
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   font-size: 12px;
   line-height: 1.5;
   font-family: Roboto;
@@ -20,26 +19,11 @@ const MainContainer = styled('div')`
   width: 1200px;
 `
 
-/*
-
-const container = css`
-  display: block;
-  margin: 0;
-  width: 1200px;
-`
-*/
-
-class Wrapper extends Component {
-  render() {
-    return (
-
-      <ApplicationWrapper>
-        <MainContainer>
-          <Header></Header>
-        </MainContainer>
-      </ApplicationWrapper>
-    );
-  }
-}
+const Wrapper = () =>
+<ApplicationWrapper>
+  <MainContainer>
+    <Header></Header>
+  </MainContainer>
+</ApplicationWrapper>
 
 export default Wrapper
