@@ -8,7 +8,7 @@ const HeaderWrapper = styled('header')`
 
 const Header = () =>
 <HeaderWrapper>
-    <Navigation />
+  <Navigation />
 </HeaderWrapper>
 
 export default Header

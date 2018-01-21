@@ -20,10 +20,10 @@ const MainContainer = styled('div')`
 `
 
 const Wrapper = () =>
-  <ApplicationWrapper>
-    <MainContainer>
-      <Header></Header>
-    </MainContainer>
-  </ApplicationWrapper>
+<ApplicationWrapper>
+  <MainContainer>
+    <Header></Header>
+  </MainContainer>
+</ApplicationWrapper>
 
 export default Wrapper
