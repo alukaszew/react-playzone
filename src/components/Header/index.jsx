@@ -6,10 +6,11 @@ const HeaderWrapper = styled('header')`
   display: block;
 `
 
-const Header = () =>
-<HeaderWrapper>
-  <Navigation />
-</HeaderWrapper>
+const Header = () => (
+  <HeaderWrapper>
+    <Navigation />
+  </HeaderWrapper>
+)
 
 export default Header
 

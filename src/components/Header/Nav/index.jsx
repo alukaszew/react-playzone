@@ -41,22 +41,25 @@ const Link = styled('a')`
 // Just mockup of data ;-)
 
 const dataList = [
-  "/news",
-  "/articles",
-  "/contact",
-  "/help"
+  '/news',
+  '/articles',
+  '/contact',
+  '/help',
 ]
 
-const linkList = dataList.map((item, i) =>
-  <Item key={i}>
-    <Link href={item} title={'Test title'}>{item.slice(1)}</Link>
-  </Item>
-)
+const linkList = dataList.map(item =>
+  <Item key={item.id}>
+    <Link href={item} title="Test title">
+      {item.slice(1)}
+    </Link>
+  </Item>)
 
-const Navigation = () =>
+const Navigation = () => (
   <NavigationWrapper>
     <LinksWrapper>
       { linkList }
     </LinksWrapper>
   </NavigationWrapper>
+)
+
 export default Navigation

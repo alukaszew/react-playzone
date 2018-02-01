@@ -6,8 +6,8 @@
   "dependencies": {
     "emotion": "^8.0.12",
     "react": "^16.2.0",
-    "react-emotion": "^8.0.12",
     "react-dom": "^16.2.0",
+    "react-emotion": "^8.0.12",
     "react-scripts": "1.1.0"
   },
   "scripts": {
@@ -22,6 +22,8 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
+    "flow-bin": "^0.64.0",
+    "flow-typed": "^2.3.0",
     "normalize.css": "^7.0.0"
   }
 }
