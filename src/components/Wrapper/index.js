@@ -22,7 +22,7 @@ const MainContainer = styled('div')`
 const Wrapper = () =>
 <ApplicationWrapper>
   <MainContainer>
-    <Header></Header>
+    <Header />
   </MainContainer>
 </ApplicationWrapper>
 
