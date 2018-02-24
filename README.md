@@ -1,2 +1,5 @@
-# react-playzone
-Just a liitle playzone for learning and sharpening react skills
+# React-Playground
+This repository is only for learning purpose. 
+
+
+## Based on React 16
