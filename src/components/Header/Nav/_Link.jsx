@@ -15,9 +15,11 @@ Link.defaultProps = {
 }
 
 const StyledLink = styled('a')`
-  color: white;
+  border-radius: 6px 6px 0 0;
+  background-color: #f3f3f3;
+  color: #434343;
   display: block;
-  height: 100%;
+  margin: 0 5px 0 10px;
   padding: 0 35px;
   text-decoration: none;
   text-transform: capitalize;
