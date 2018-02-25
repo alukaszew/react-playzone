@@ -6,7 +6,7 @@ import Link from './_Link'
 const Item = props => (
   <ListItem>
     <Link
-      href={props.itemsData}
+      url={props.itemsData}
       title={props.itemsData.slice(1)}
       text={props.itemsData.slice(1)}
     >
